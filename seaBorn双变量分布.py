@@ -19,3 +19,14 @@ sns.jointplot(x="x",y="y",data=def_obj1)
 ##例子2--二维直方图
 sns.jointplot(x="x",y="y",data=def_obj2,kind="hex")
 
+##例子3--
+##核密度估计
+sns.jointplot(x="x",y="y",data=def_obj1,kind='kde')
+
+##数据集中变量间关系可视化
+dataset = sns.load_dataset("tips")
+
+sns.pairplot(dataset)
+
+##差不多了,去画其他图看看.!!
+
