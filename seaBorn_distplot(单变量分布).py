@@ -22,3 +22,6 @@ sns.distplot(x3,hist=False)
 ##尝试画直方图
 ##直方图
 sns.distplot(x1,bins=20,kde=False,rug=True)
+
+## 核密度估计 sns.distplot(hist=False) 或 sns.kdeplot()
+sns.distplot(x2,hist=False,rug=True)
