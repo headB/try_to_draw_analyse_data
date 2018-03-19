@@ -1,4 +1,4 @@
-[![Python3](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)](https://www.python.org/)[![叩丁狼教育](http://www.wolfcode.cn/images/wolfcode/favicon.ico)](http://www.wolfcode.cn)
+[![Python3](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)](https://www.python.org/) [![叩丁狼教育](http://www.wolfcode.cn/images/wolfcode/favicon.ico)](http://www.wolfcode.cn)
 
 ### test-为数据分析-数据可视化做准备
 #### 直接使用matplotlib画图
