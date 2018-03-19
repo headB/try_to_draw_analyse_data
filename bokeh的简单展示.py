@@ -1,4 +1,4 @@
-from bokeh.charts import Area, show, output_file
+from bokeh.charts import Area, show, output_file,output_notebook
 
 # create some example data
 data = dict(
@@ -10,5 +10,6 @@ data = dict(
 area = Area(data, title="Area Chart", legend="top_left",
             xlabel='time', ylabel='memory')
 
-output_file('area.html')
+output_notebook()
+#output_file('area.html')
 show(area)
